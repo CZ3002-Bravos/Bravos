@@ -1,0 +1,20 @@
+rootProject.name = 'Maple_EXP'
+include ':@gregfrench_react-native-wheel-picker'
+project(':@gregfrench_react-native-wheel-picker').projectDir = new File(rootProject.projectDir, '../node_modules/@gregfrench/react-native-wheel-picker/android')
+include ':react-native-tts'
+project(':react-native-tts').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tts/android')
+apply from: '../node_modules/react-native-unimodules/gradle.groovy'; includeUnimodulesProjects()
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':@react-native-firebase_app'
+project(':@react-native-firebase_app').projectDir = new File(rootProject.projectDir, './../node_modules/@react-native-firebase/app/android')
+
+include ':react-native-spotify-remote'
+project(':react-native-spotify-remote').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spotify-remote/android')
+
+include ':react-native-events'
+project(':react-native-events').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-events/android')
