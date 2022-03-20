@@ -76,7 +76,7 @@ function WelcomeScreen(props) {
 
         <View style = {styles.container}>
           <Image style={styles.Logo} source={image}></Image>
-          <Text style={styles.header}>Alphas</Text>
+          <Text style={styles.header}>Bravos</Text>
         </View>
 
         <TextInput
