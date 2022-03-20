@@ -71,7 +71,7 @@ function WelcomeScreen(props) {
       <ScrollView contentContainerStyle={styles.screenScroll} keyboardShouldPersistTaps="always" showsVerticalScrollIndicator={false}>
         <View style={styles.brand}>
           <IconButton icon="run" style={{ margin: 0 }} color={'#BABBBF'} />
-            <Text style={{ fontSize: 16, color: '#BABBBF' }}>Alphas</Text>
+            <Text style={{ fontSize: 16, color: '#BABBBF' }}>The Social Running App</Text>
         </View>
 
         <View style = {styles.container}>
