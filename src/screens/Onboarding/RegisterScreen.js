@@ -290,7 +290,7 @@ const RegisterScreen = ({navigation}) => {
                 </Button>
 
                 <Text style={{ color: '#BABBBF', paddingHorizontal: 10, paddingTop: 10 }}>
-                    By proceeding and tapping on Create Account, you agree to BeatStride's Terms of Service and Privacy Policy.
+                    By proceeding and tapping on Create Account, you agree to Bravos's Terms of Service and Privacy Policy.
                 </Text>
 
                 <Pressable onPress={() => {
